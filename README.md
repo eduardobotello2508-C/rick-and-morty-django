@@ -26,8 +26,13 @@ Proyecto desarrollado en **Django** y **MySQL** que consume la API pública de R
    git clone https://github.com/eduardobotello2508-C/rick-and-morty-django.git
 
 2. **Activar entorno virtual e instalar dependencias:**
-- .\venv\Scripts\Activate.ps1
-- pip install django pymysql requests
+- Activar el entorno virtual
+ ``` python -m venv venv```
+- Entrar a la ruta del proyecto y ingresar al CMD o PowerShell
+- Introduccir siguiente comando
+ ```.\venv\Scripts\Activate.ps1```
+- Instalar las dependencias
+```pip install django pymysql requests```
 
 3. **Ejecutar migraciones y sincronizar datos:**
 
