@@ -23,8 +23,7 @@ Proyecto desarrollado en **Django** y **MySQL** que consume la API pública de R
 
 1. **Clonar repositorio:**
    ```bash
-   git clone [https://github.com/eduardobotello2508-C/rick-and-morty-django.git](https://github.com/eduardobotello2508-C/rick-and-morty-django.git)
-   cd rick-and-morty-django
+   git clone https://github.com/eduardobotello2508-C/rick-and-morty-django.git
 
 2. **Activar entorno virtual e instalar dependencias:**
 - .\venv\Scripts\Activate.ps1
