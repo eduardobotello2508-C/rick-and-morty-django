@@ -25,3 +25,26 @@ Proyecto desarrollado en **Django** y **MySQL** que consume la API pública de R
    ```bash
    git clone [https://github.com/eduardobotello2508-C/rick-and-morty-django.git](https://github.com/eduardobotello2508-C/rick-and-morty-django.git)
    cd rick-and-morty-django
+
+2. **Activar entorno virtual e instalar dependencias:**
+- .\venv\Scripts\Activate.ps1
+- pip install django pymysql requests
+
+3. **Ejecutar migraciones y sincronizar datos:**
+
+- python manage.py migrate
+- python manage.py sync_api
+
+4. **Iniciar servidor:**
+- python manage.py runserver
+
+---
+
+### 📤 Para subir la versión final a GitHub:
+
+En tu terminal ejecuta:
+
+```powershell
+git add .
+git commit -m "docs: Actualizar README.md principal"
+git push origin main
