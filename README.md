@@ -77,7 +77,7 @@ Proyecto desarrollado en **Django** y **MySQL** que consume la API pública de R
 
 - En caso de que falle las migraciones por usuario o contraseña
 
-- Ingresar a la carpeta rick_project dentro de visual y buscar el archivo settings.py para modificar las credenciales de usuario y contraseña
+- Ingresar a la carpeta rick_project dentro de VS Code y buscar el archivo settings.py para modificar las credenciales de usuario y contraseña
 
 5. **Iniciar servidor:**
 - Levanta la aplicación para verla en tu navegador:
