@@ -84,6 +84,6 @@ Proyecto desarrollado en **Django** y **MySQL** que consume la API pública de R
 
 ```python manage.py runserver```
 
---Abre tu navegador web y entra a:
+- Abre tu navegador web y entra a:
 
 ```http://127.0.0.1:8000/```
