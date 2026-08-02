@@ -1,4 +1,4 @@
-# 🛸 Rick & Morty Django Portal
+# 🛸 Rick & Morty Django Portal 
 
 Proyecto desarrollado en **Django** y **MySQL** que consume la API pública de Rick & Morty, gestiona personajes de forma relacional y ofrece control de acceso basado en roles (RBAC).
 
@@ -31,10 +31,12 @@ Proyecto desarrollado en **Django** y **MySQL** que consume la API pública de R
 - Entrar a la ruta del proyecto y ingresar al CMD o PowerShell
 - Introduccir siguiente comando
  ```.\venv\Scripts\Activate.ps1```
+--Ingresar el siguente comando opcional que se utiliza para darle permisos en caso de que windows no te permita
+```Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass```
 - Instalar las dependencias
 ```pip install django pymysql requests```
 
-3. Usar MySQL Workbench o phpMyAdmin
+3. **Usar MySQL Workbench o phpMyAdmin**
 --Si tienes instalado MySQL Workbench:
 
 --Ábrelo y haz doble clic en tu conexión Local instance MySQL.
@@ -47,7 +49,7 @@ Proyecto desarrollado en **Django** y **MySQL** que consume la API pública de R
 
 --y dale al rayo para ejecutar.
 
-5. **Ejecutar migraciones y sincronizar datos:**
+4. **Ejecutar migraciones y sincronizar datos:**
    
 --Ejecuta las migraciones estructurales de Django y descarga los datos de la AP
 
@@ -77,7 +79,7 @@ Proyecto desarrollado en **Django** y **MySQL** que consume la API pública de R
 
 --Ingresar a la carpeta rick_project dentro de visual y buscar el archivo settings.py para modificar las credenciales de usuario y contraseña
 
-6. **Iniciar servidor:**
+5. **Iniciar servidor:**
 --Levanta la aplicación para verla en tu navegador:
 
 ```python manage.py runserver```
